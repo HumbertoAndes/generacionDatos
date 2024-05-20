@@ -27,11 +27,11 @@ describe('Login with invalid email format', ()=> {
   it('Login with invalid email format', ()=>  {
     const posicion= random()
     const credentials = dataLogin[posicion]
-    cy.visit('http://localhost:2368/ghost')
+    cy.visit('https://ghost-waki.onrender.com/ghost/#/signin')om/ghost/#/signin')
     cy.wait(1000)
     cy.get('input[name="identification"]').type(credentials.email_invalid)
     cy.get('input[name="password"]').type(credentials.password_valid)
-    cy.get('button[data-test-button="sign-in"]').click()
+     cy.get('button[class="login gh-btn gh-btn-login gh-btn-block gh-btn-icon js-login-button ember-view"]').click()
     cy.wait(1000)
     cy.get('p[class="main-error"]').should('contain', 'Please fill out the form to sign in.')
   })
