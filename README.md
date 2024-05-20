@@ -1,5 +1,6 @@
 # Taller Semana 7
 
+# Aclaramos que nuestro equipo esta conformado por 2 personas, por ello la distribución de los escenarios
 
 Para esta entrega se implementaron los siguientes tipos de casos de prueba:
 
