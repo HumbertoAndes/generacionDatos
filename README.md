@@ -37,3 +37,11 @@ Cada carpeta contiene 20 casos de prueba implementados conforme a la estrategia 
 6. Abra Cypress con el siguiente comando:
     cypress open
 7. Este comando abrirá la consola de Cypress donde se mostrarán todos los casos de prueba   generados.        
+
+## Sistema de registro de incidencias
+## URL:
+    https://uniandes-team-lyu8cw4u.atlassian.net/jira/software/projects/KAN/boards/1
+## Usuario:
+    h.sosa@uniandes.edu.co
+## Pass:
+    Bogota1*        
