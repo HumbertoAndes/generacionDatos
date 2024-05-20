@@ -25,6 +25,5 @@ describe('Create a post with an extremely long description', ()=> {
       cy.get('button[class="gh-btn gh-btn-black gh-btn-large"]').click()
       cy.get('button[data-test-button="confirm-publish"]').click()
       cy.wait(2000)
-      
     })
   })
